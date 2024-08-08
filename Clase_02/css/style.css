@@ -38,3 +38,50 @@ footer p {
     width: 64px;
     height: auto;
 }
+
+.foto {
+    border: 2px solid #474747;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 30px 20px 200px 150px
+}
+
+.menu-item:hover {
+    width: 76px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px teal solid;
+    background-color: teal;
+}
+
+.menu-item:hover img{
+    width: 76px;
+    height: auto;
+}
+
+.verde {
+    color: teal;
+}
+/* 
+p {
+    color: red !important;
+}
+
+ */
+.box {
+    border: 2px solid teal;
+    width: 200px;
+    height: 300px;
+}
+
+ .box-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+ }
+
+ .box-2 {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+ }

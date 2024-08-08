@@ -1,5 +1,4 @@
-# Clase 01 - Etiquetas Semánticas y No Semánticas
-
+# Clase 02 - Vínculos y Modelo de cajas
 
 - Vínculos
 - Rutas relativas y absolutas
