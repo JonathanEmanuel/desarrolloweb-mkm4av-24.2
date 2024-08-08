@@ -1,0 +1,40 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+    color: teal;
+}
+
+span {
+    color: slateblue;
+    font-weight: 700;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: thistle;
+    min-height: 350px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+footer {
+    background-color: teal;
+    padding: 16px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.icon {
+    width: 64px;
+    height: auto;
+}
