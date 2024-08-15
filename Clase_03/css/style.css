@@ -1,0 +1,173 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: teal;
+}
+
+h1 {
+    border: 2px solid teal;
+    padding: 10px;
+ 
+}
+span {
+    color: slateblue;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 600px;
+    border: 2px solid salmon;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: thistle;
+    min-height: 350px;
+    padding: 32px;
+    margin-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 32px
+}
+
+footer {
+    background-color: teal;
+    height: 64px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    
+    padding-right: 16px;
+
+}
+
+.icon {
+    width: 64px;
+    height: auto;
+}
+
+.foto {
+    border: 2px solid #474747;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 30px 20px 200px 150px
+}
+
+.menu-item:hover {
+    width: 76px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px teal solid;
+    background-color: teal;
+}
+
+.menu-item:hover img{
+    width: 76px;
+    height: auto;
+}
+
+.verde {
+    color: teal;
+}
+/* 
+p {
+    color: red !important;
+}
+
+ */
+.box {
+    border: 2px solid teal;
+    width: 200px;
+    height: 300px;
+}
+
+ .box-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+ }
+
+ .box-2 {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+ }
+
+ .flex-container { 
+   /*  border: 2px solid teal; */
+
+ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .flex-item {
+    /* border: 1px solid slateblue; */
+ }
+
+.flex-experiencia {
+   
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    flex-wrap: wrap;
+    
+}
+
+ .card {
+    border: 2px solid #474747;
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 280px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.btn {
+    background-color: teal;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(7, 169, 169);
+
+}
