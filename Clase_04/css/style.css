@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Moderustic", sans-serif;
+    margin-bottom: 32px;
+    font-weight: 400;
+    color: #2766e3;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-weight: 600;
+}
+ul, a, p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #2b2b2b;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #2766e3;
+    min-height: 50px;
+    position: sticky;
+    top: 0px;
+    /* optativo */
+    box-shadow: 0px 5px 10px #2b2b2b81;
+    z-index: 2;
+}
+
+nav ul {
+    min-height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px dotted #fff;
+    display: inline-block;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #2b2b2b;
+}
+
+main {
+    margin: 0 auto;
+    width: 900px;
+    padding: 16px;
+    margin-bottom: 6px;
+}
+
+section {
+    border: 2px solid #2766e3;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: bisque;
+
+}
+
+.row {
+    /* border: 2px dotted #2766e3; */
+    display: flex;
+}
+
+.col {
+  /*   border: 2px dotted #bd27e3; */
+    padding: 10px;
+}
+
+
+footer {
+    height: 100px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+footer p {
+    color: #fff;
+}
+
+/* Position fixed */
+/*
+ -top: medida
+ -botoom: medida
+ -left: medida
+ -right: medida
+*/
+.chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.card {
+    border: 2px solid #2b2b2b98;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px #2b2b2b81;
+    background-color: #fff;
+
+    position: relative;
+    z-index: 1;
+}
+
+.promo {
+    background-color: #2766e3;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.promo p {
+    color: #fff;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 5px;
+    background-color: #2b2b2b8d;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
