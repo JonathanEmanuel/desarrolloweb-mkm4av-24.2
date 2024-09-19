@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+    <!-- Librerías -->
+    <link rel="stylesheet" href="libs/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Galería de Fotos</h1>
+        <a href="bootstrap.html">bootstrap</a>
+    </header>
+    <main>
+        <section class="galeria">
+            <!-- LighBox2 -->
+            <a href="images/caba.jpg" data-lightbox="roadtrip" data-title="CABA">
+                <img class="item" src="images/small/caba.jpg" alt="caba">
+            </a>
+            <a href="images/heksinki.jpg" data-lightbox="roadtrip" data-title="Helsinki">
+                <img class="item" src="images/heksinki.jpg" alt="Helsinki">
+            </a>
+            <a href="images/paris.jpg" data-lightbox="roadtrip" data-title="Paris">
+                <img class="item" src="images/small/paris.jpg" alt="Paris">
+            </a>
+
+
+            <!-- Glightbox  -->
+            <a href="images/rusia.jpg" class="glightbox3">
+                <img class="item" src="images/small/rusia.jpg" alt="Rusia">
+            </a>
+
+            <a href="images/tokio.jpg" class="glightbox3">
+                <img class="item" src="images/small/tokio.jpg" alt="Tokio">
+            </a>
+            
+            <a  href="images/caba2.jpg" 
+                class="glightbox3"
+                data-glightbox="title: CABA; description: Foto captura en CABA un día ">
+                <img class="item" src="images/small/caba2.jpg" alt="CABA">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>ISEC | Desarroolo Web | 2024</p>
+    </footer>
+    <script src="libs/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 1000,
+          'wrapAround': true
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox();
+
+        let lightboxvideo = GLightbox({
+            selector: '.glightbox3'
+        });
+
+    </script>
+</body>
+</html>
