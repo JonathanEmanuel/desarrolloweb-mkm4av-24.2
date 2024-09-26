@@ -14,3 +14,5 @@
 - Títulos, párrafos y alineación de textos
 - Botones
 - Imágenes responsive
+
+![Captura de pantalla](images/captura.png)
