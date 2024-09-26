@@ -1,0 +1,17 @@
+header {
+    height: 20vh;
+    background-color: #9F4BF2;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #2573D9;
+}
+
+#trabajos {
+    min-height: 300px;
+}
