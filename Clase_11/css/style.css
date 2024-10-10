@@ -1,0 +1,49 @@
+header {
+    height: 20vh;
+    background-color: #9F4BF2;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #2573D9;
+}
+
+#trabajos {
+    min-height: 300px;
+}
+
+.card {
+    transition: all 1s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.bg-dark-2 {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.btn-green {
+    background-color: teal;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: rgb(12, 106, 106);
+    color: white;
+}
+
+button.show{
+    background-color: rgb(12, 106, 106);
+    color: white;
+}
+
+.bg-green {
+    background-color: teal;
+}
